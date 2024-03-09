@@ -1,0 +1,26 @@
+#meuCanvas{
+    border: 2px solid black;
+}
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.botão{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.caixas{
+    display: flex;
+    flex-direction: column;
+}
+.caixas label{
+    font-size: 1.5rem;
+}
+.feitoPor{
+    color: black;
+    background-color: rgb(228, 150, 124);
+}
